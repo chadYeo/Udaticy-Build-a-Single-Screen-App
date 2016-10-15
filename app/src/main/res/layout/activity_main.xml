@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.example.com.highfivecats.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/businessName_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Highfive Meow to Donate"
+        android:textColor="@color/light_grey"
+        android:background="@color/grey"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/high_five_cat"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contactInfo_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Information"
+            style="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingLeft="16dp"
+            android:text="777-777-7777"
+            style="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/Address_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Address"
+            style="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingLeft="16dp"
+            android:text="Right behind you"
+            style="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/description_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:text="Description" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Capture a photo of you highfiv-ing a cat and donate $ to your local animal shelter"
+            style="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/hours_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:text="Hours of Operation" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingLeft="16dp"
+            android:text="24Hours 7 Days"
+            style="@style/TextAppearance.AppCompat.Small" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
